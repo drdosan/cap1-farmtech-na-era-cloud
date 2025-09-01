@@ -41,7 +41,8 @@ O projeto aborda **predição de rendimento agrícola** usando Machine Learning 
 │   ├── logo-fiap.png              # Logo da FIAP para o projeto
 │
 ├── document/              
-│   ├── Estimativa - FarmTech (FIAP) - Calculadora de Preços da AWS.pdf              # Calculadora AWS
+│   ├── calculadora_aws.pdf        # Calculadora AWS
+│   ├── crop_yield.csv             # Base anexada do portal FIAP
 │
 ├── src/                           # Código-fonte principal do projeto
 │   │
