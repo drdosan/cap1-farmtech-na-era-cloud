@@ -109,7 +109,7 @@ Foi realizada a simulação de custo para hospedar a API de Machine Learning em 
 - Linux On-Demand (100%)  
 - 2 vCPUs  
 - 1 GiB RAM  
-- 50 GB EBS (gp3)  
+- 50 GB EBS (HD)  
 - Até 5 Gbps de rede  
 
 
