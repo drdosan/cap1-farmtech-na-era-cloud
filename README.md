@@ -70,17 +70,17 @@ Variáveis disponíveis:
    - Dispersão de temperatura vs rendimento
    - Correlação entre variáveis numéricas  
 
-   ![Histograma](figures/hist_yield.png)  
-   ![Scatter](figures/scatter_temp_yield.png)  
-   ![Correlação](figures/corr_matrix.png)  
+   ![Histograma](assets/hist_yield.png)  
+   ![Scatter](assets/scatter_temp_yield.png)  
+   ![Correlação](assets/corr_matrix.png)  
 
 2. **Clusterização e Outliers:**
    - KMeans com seleção de *k* via *silhouette*
    - PCA para visualização em 2D
    - IsolationForest para detecção de anomalias  
 
-   ![Silhouette](figures/silhouette_k.png)  
-   ![Clusters PCA](figures/clusters_pca.png)  
+   ![Silhouette](assets/silhouette_k.png)  
+   ![Clusters PCA](assets/clusters_pca.png)  
 
 3. **Modelagem Supervisionada:**
    Foram comparados **5 algoritmos** de regressão:
@@ -95,8 +95,8 @@ Variáveis disponíveis:
    - **RMSE (Raiz do Erro Quadrático Médio)**
    - **R² (Coeficiente de Determinação)**  
 
-   ![RMSE](figures/model_rmse.png)  
-   ![R²](figures/model_r2.png)  
+   ![RMSE](assets/model_rmse.png)  
+   ![R²](assets/model_r2.png)  
 
    O **melhor modelo** foi salvo em `artifacts/best_model.joblib`.
 
