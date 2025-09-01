@@ -41,6 +41,7 @@ O projeto aborda **predição de rendimento agrícola** usando Machine Learning 
 │   ├── logo-fiap.png              # Logo da FIAP para o projeto
 │
 ├── document/              
+│   ├── Estimativa - FarmTech (FIAP) - Calculadora de Preços da AWS.pdf              # Calculadora AWS
 │
 ├── src/                           # Código-fonte principal do projeto
 │   │
@@ -111,15 +112,21 @@ Foi realizada a simulação de custo para hospedar a API de Machine Learning em 
 - 50 GB EBS (gp3)  
 - Até 5 Gbps de rede  
 
+
 ### 💰 Comparativo de Custos (730h/mês)
 
-| Região            | EC2 (730h) | EBS 50GB | **Total Mensal** |
-|-------------------|-----------:|---------:|-----------------:|
-| **us-east-1 (EUA)**  | US$ 15.18  | US$ 4.00  | **US$ 19.18**    |
-| **sa-east-1 (Brasil)** | US$ 19.27  | US$ 5.00  | **US$ 24.27**    |
+| Região            | **Total Mensal** |
+|-------------------|-----------------:|
+| **us-east-1 (EUA)**  | **US$ 6,88**    |
+| **sa-east-1 (Brasil)** | **US$ 11,22**   |
+
+
+### Link da Estimativa
+[https://calculator.aws/#/estimate?id=ce53bf9cd6f5d5c5465fb6329e28c118fa8d0ca0](https://calculator.aws/#/estimate?id=ce53bf9cd6f5d5c5465fb6329e28c118fa8d0ca0)
+
 
 ### 🏁 Justificativa da Escolha
-Apesar da Virgínia do Norte ser ~20% mais barata, escolhemos **São Paulo (sa-east-1)** porque:
+Apesar de **Leste dos EUA (N. da Virgínia) (sa-east-1)** ser mais barata, escolhemos **São Paulo (sa-east-1)** porque:
 - Há **restrições legais**: dados de sensores não podem sair do Brasil.  
 - Latência mais baixa para dispositivos locais.  
 - Maior conformidade com exigências regulatórias.  
